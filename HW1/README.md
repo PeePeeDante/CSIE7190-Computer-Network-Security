@@ -11,7 +11,7 @@ How to run code: <br/>
 
 
 ### 5. Find The Secret (10%) <br/>
-My friends and I built a Shamir’s Secret Sharing scheme using a polynomial A(x) = a0 + a1x+a2x2,wherethesecretisa0.TheithuserreceivesDi=(i,A(i) modq),where q is a prime. I have collected the secret shares from 1st, 2nd and 3rd users (D1, D2, D3). However, some bad guys forged lots of faked secret shares, trying to prevent us from retrieving our secret. Can you help me find the secret? <br/>
+My friends and I built a Shamir’s Secret Sharing scheme using a polynomial A(x) = a0 + a1x + a2x2, where the secret is a0. The ith user receives Di=(i,A(i) modq), where q is a prime. I have collected the secret shares from 1st, 2nd and 3rd users (D1, D2, D3). However, some bad guys forged lots of faked secret shares, trying to prevent us from retrieving our secret. Can you help me find the secret? <br/>
 My friend gave me some hints to find out the true secret shares, ci = gai mod p, 0 ≤ i ≤ 2, where p is also a prime and q|(p−1), g ∈ Zp∗ and g is an element of order q. The data is included in hw1/secret_sharing. <br/>
 
 How to run code: <br/>
